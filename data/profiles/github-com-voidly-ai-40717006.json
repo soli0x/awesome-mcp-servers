@@ -1,0 +1,58 @@
+{
+  "id": "github-com-voidly-ai-40717006",
+  "name": "Voidly",
+  "description": "Internet-censorship measurement data for AI agents: country status, domain-blocking checks, citable incidents with evidence permalinks and shutdown-risk forecasts, built on OONI, CensoredPlanet and IODA measurements, plus optional agent relay tools (state-changing actions off by default; relay messages are relay-readable, not end-to-end encrypted). Install via `npx -y @voidly/mcp-server`.",
+  "category": "Security",
+  "profileUrl": "https://tensorblock.co/mcp/servers/github-com-voidly-ai-40717006",
+  "badgeMarkdown": "[![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-com-voidly-ai-40717006/badge.svg)](https://tensorblock.co/mcp/servers/github-com-voidly-ai-40717006)",
+  "links": {
+    "primary": "https://github.com/voidly-ai",
+    "repo": "https://github.com/voidly-ai",
+    "homepage": null,
+    "docs": null,
+    "endpoint": null
+  },
+  "install": {
+    "commands": [
+      "npx -y @voidly/mcp-server"
+    ],
+    "env": [],
+    "confidence": "medium"
+  },
+  "transport": [
+    "unknown"
+  ],
+  "auth": {
+    "type": "unknown",
+    "notes": []
+  },
+  "clients": [],
+  "license": "unknown",
+  "installReady": false,
+  "verifiedAt": null,
+  "health": {
+    "repoPublic": null,
+    "packageFound": null,
+    "endpointReachable": null,
+    "lastCheckedAt": null
+  },
+  "verification": {
+    "status": "unknown",
+    "notes": []
+  },
+  "community": {
+    "maintainedBy": [],
+    "verifiedBy": [],
+    "claimed": false
+  },
+  "summary": {
+    "transport": [
+      "unknown"
+    ],
+    "auth": "unknown",
+    "installConfidence": "medium",
+    "installReady": false,
+    "verification": "unknown",
+    "toolCount": null
+  }
+}

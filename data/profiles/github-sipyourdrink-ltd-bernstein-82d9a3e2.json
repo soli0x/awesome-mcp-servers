@@ -1,0 +1,67 @@
+{
+  "id": "github-sipyourdrink-ltd-bernstein-82d9a3e2",
+  "name": "sipyourdrink-ltd/bernstein",
+  "description": "Deterministic orchestration for CLI coding agents. Runs Claude Code, Codex, Gemini CLI, Aider, OpenHands and 40+ other agent CLIs in parallel inside isolated git worktrees, with a replay journal, lineage tracking, and an opt-in HMAC-chained audit log that verifies offline.",
+  "category": "AI & LLM Integration",
+  "profileUrl": "https://tensorblock.co/mcp/servers/github-sipyourdrink-ltd-bernstein-82d9a3e2",
+  "badgeMarkdown": "[![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-sipyourdrink-ltd-bernstein-82d9a3e2/badge.svg)](https://tensorblock.co/mcp/servers/github-sipyourdrink-ltd-bernstein-82d9a3e2)",
+  "links": {
+    "primary": "https://github.com/sipyourdrink-ltd/bernstein",
+    "repo": "https://github.com/sipyourdrink-ltd/bernstein",
+    "homepage": null,
+    "docs": "https://bernstein.readthedocs.io",
+    "endpoint": null
+  },
+  "install": {
+    "commands": [
+      "uvx --from bernstein bernstein mcp"
+    ],
+    "env": [],
+    "confidence": "medium"
+  },
+  "transport": [
+    "stdio",
+    "sse",
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "none",
+    "notes": []
+  },
+  "clients": [
+    "Claude",
+    "Codex"
+  ],
+  "license": "Apache-2.0",
+  "installReady": true,
+  "verifiedAt": null,
+  "health": {
+    "repoPublic": null,
+    "packageFound": null,
+    "endpointReachable": null,
+    "lastCheckedAt": null
+  },
+  "verification": {
+    "status": "self_reported",
+    "notes": [
+      "Metadata updated from issue #1390. Source: - Package: https://pypi.org/project/bernstein/ (3.9.0) - Tier membership is declared in one table: https://github.com/sipyourdrink-ltd/bernstein/blob/main/src/bernstein/core/protocols/mcp/tool_tiers.py - Transports..."
+    ]
+  },
+  "community": {
+    "maintainedBy": [],
+    "verifiedBy": [],
+    "claimed": false
+  },
+  "summary": {
+    "transport": [
+      "stdio",
+      "sse",
+      "streamable-http"
+    ],
+    "auth": "none",
+    "installConfidence": "medium",
+    "installReady": true,
+    "verification": "self_reported",
+    "toolCount": 13
+  }
+}
